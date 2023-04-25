@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Russo+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  
+  background: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.left-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background: #000;
+  border-bottom: 4px solid #c5c6c7;
+}
+
+.nav_link {
+  font-size: 25px;
+}
+
+
+.nav_link:hover {
+  color: lightseagreen;
+  text-decoration: underline;
+  transition: .5s ease-in;
+
+}
+
+h4 {
+  text-align: center;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  /* height: 100vh; */
+  background: #fff;
+}
+
+.welcome-text {
+  text-align: center;
+
+}
+
+.auto-type{
+  color: #1f2833;
+  
+}
+
+.hero-image {
+  width: 60%;
+}
+
+.center {
+  width: 300px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 220px;
+  padding: 15px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container h1 {
+  color: #1f2833;
+  font-family: 'Fredoka One', cursive;
+  font-size: 100px;
+}
+
+.cert-container{
+  text-align: center;
+}
+
+.cert {
+  width: 300px;
+  cursor: pointer;
+  transition: .3s transform ease-in-out;
+  border: #000 solid 3px;
+  border-radius: 7px;
+}
+
+.cert:hover {
+  transform: scale(2.7);
+  z-index: 100;
+}
+
+.t-head {
+  color: #1f2833;
+  font-weight: bold;
+}
+
+.t-row{
+  color: #000;
+}
+
+.icons {
+  font-size: 50px;
+  color: #000;
+  background: #fff;
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+.i-container {
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.hero-btns > a {
+  font-size: 25px;
+  font-weight: 700;
+  margin: .5rem 1rem;
+  padding: .5rem 1.5rem;
+  letter-spacing: 1.5;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-left {
+  font-weight: 900;
+  padding: .1rem;
+  color: #000;
+  border: solid 3px #000;
+  border-radius: 7px;
+}
+.btn-left:hover {
+  font-weight: 900;
+  color: #fff;
+  background-color: #000;
+  border-radius: 7px;
+  transition: .3s ease-in;
+}
+.btn-right {
+  background: #000;
+  color: #fff;
+}
+
+.btn-right:hover {
+  font-weight: 900;
+  color: #000;
+  background-color: #fff;
+  border-radius: 7px;
+  border: solid 3px #000;
+  transition: .3s ease-in;
+}
+
+/* About Sections */
+.about {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: grey solid 10px;
+  width: 100%;
+}
+
+.about-text {
+  padding: 3rem;
+  border-right: grey solid 7px;
+  width: 80%;
+}
+.about-text > p {
+  font-size: 18px;
+}
+
+.about-img {
+  width: 500px;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.about-img > img {
+  width: 100%;
+}
+
+.about h1 {
+  text-align: center;
+  color: grey;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.about-name {
+  color: grey;
+  font-weight: bold;
+}
+
+.auto-type1 {
+  color: #000;
+  font-weight: bold;
+}
+
+.about-container {
+  text-align: center;
+}
+
+
+.webdev {
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 7px;
+  margin: 2rem;
+  color: #1f2833;
+  font-weight: bold;
+}
+
+/* Projects */
+
+.projects{
+  width: 100%;
+  height: 100%;
+}
+
+.projects h1 {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  margin: 0;
+}
+
+ h1.card-title {
+  color: grey;
+  background: #1f2833b6;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  padding: 1rem;
+  border: grey 5px solid;
+  border-radius: 15px;
+  box-shadow: 7px 5px 5px grey;
+}
+
+.card-container{
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 15px;
+ 
+}
+
+.a-link {
+  color: grey;
+}
+
+/* Contact */
+
+.contact {
+  background: #fff;
+  width: 100%;
+  
+}
+
+.contact-header {
+  text-shadow: 5px 3px 3px grey;
+  text-align: center;
+  color: grey;
+}
+
+form {
+  max-width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  background: #1f2833;
+  border-radius: 15px;
+  box-shadow: 7px 5px 5px grey;
+  border: 3px solid grey;
+  padding: .5rem;
+}
+
+form > h1 {
+  color: #fff;
+}
+
+label{
+  font-size: 19px;
+  color: #fff;
+}
+
+input {
+  padding: 0.2rem;
+}
+
+input:focus {
+  color: #fff;
+}
+
+textarea {
+  height: 200px;
+  border: 2px solid #fff;
+  padding: 0.3rem;
+}
+
+.submit {
+  margin: 20px;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
+  color: #1f2833;
+}
+
+.submit:hover {
+  background: #1f2833;
+  border: #fff solid 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-top: grey 2px solid;
+  padding: 15px;
+  background: #000;
+}
+
+footer > ul {
+  display: flex;
+}
+
+.f-link {
+  padding: 10px;
+}
+
+.f-link a {
+  color: #fff;
+  font-size: 19px;
+}
+
+.btn-floating {
+  margin: 0 25px;
+}
+
+.pulse { 
+  background-color: grey;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .nav-wrapper{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-nav{
+    width: 100%;
+  }
+
+  .logo{
+    margin-top: 60px;
+  }
+
+  .left-nav{
+    background: #1f2833;
+  }
+ 
+  .container {
+    width: 100%;
+  }
+
+  .container-home {
+    padding: 0.2rem;
+  }
+
+  .welcome-text{
+    font-size: 40px;
+  }
+
+ h5 {
+  font-size: 20px;
+ }
+
+  .icons {
+    font-size: 25px;
+    padding: .7rem;
+  }
+
+  .hero-btns > a {
+    font-size: 19px;
+    padding: .2rem .7rem;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .about-text {
+    padding: 1rem;
+  }
+
+  .about-img {
+    max-width: 400px;
+  }
+
+  .about-img > img {
+    
+    width: 95%;
+  
+  }
+
+  .about-container{
+    display: inline-block;
+
+  }
+  .card-container{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+
+  form {
+    width: 93%;
+    margin: 5px;
+  }
+}
