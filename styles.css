@@ -323,10 +323,13 @@ label{
 
 input {
   padding: 0.2rem;
+  border-bottom: solid 3px black;
+
 }
 
 input:focus {
   color: #fff;
+  border: #000;
 }
 
 textarea {
